@@ -1,0 +1,328 @@
+
+.brand{
+    float: left;
+    padding: 5px;
+}
+.bar{
+    background-color:rgb(247, 89, 168);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+.navbar_items{
+    font-size: 20px;
+    background-color: rgb(238, 169, 226);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
+ 
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    
+    color: darkmagenta
+}
+
+a:hover{
+    color: white;
+    
+}
+
+
+.about_us{
+    background-color: rgb(248, 165, 220);
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+
+
+.fresh,.description{
+    
+    margin-top: 30%;
+    margin-left: 30%;
+    
+}
+
+.fresh{
+    color: rgb(240, 14, 138);
+    font-size: 50px;
+    
+}
+
+.description{
+    font-size: 25px;
+    color: rgb(255, 16, 183);
+}
+
+.description_2{
+    margin-left: 30%;
+    margin-top: 3%;
+    color: rgb(236, 67, 236);
+    text-shadow: turquoise 0px 2px;
+
+}
+
+.content{
+    font-family: cursive;
+    font-style: italic;
+
+}
+
+.btn{
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+      );
+}
+.btn {
+    margin-left: 30%;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-weight: 600;
+    background-size: 200% auto;
+    color: white;
+    border:solid 2px;
+    border-color:solid  white 10px;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+.home{
+    background-image: url(./images/home-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    display: flex;
+
+}
+
+.about_us_int{
+    display: flex;
+    width: 100%;
+
+}
+
+.main_video{
+   
+}
+
+.content_heading{
+    font-size: 30px;
+    color: rgb(240, 14, 138);
+}
+.about_description{
+    font-size: 20px;
+}
+
+.icons-container{
+    background:#eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.icons-container .icons{
+    background:#fff;
+    border:.1rem solid rgba(0,0,0,.1);
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    flex:1 1 10rem;
+}
+
+.icons-container .icons img{
+    height:3rem;
+    margin-right: 1rem;
+}
+
+.icons-container .icons h3{
+    color:#333;
+    padding-bottom: 0rem;
+    font-size: 1.5rem;
+}
+
+.icons-container .icons span{
+    color:#555;
+    font-size: 1rem;
+}
+
+
+.heading{
+    background-color: rgb(255, 16, 183);
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.products .box-container .box{
+    flex:1 1 20rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    position: relative;    
+}
+.products .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 1rem;
+    overflow:hidden;
+}
+
+.products .box-container .box .image img{
+    height:15rem;
+}
+
+.products .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.products .box-container .box .image .icons{
+    position: absolute;
+    bottom:-7rem; left:0; right:0;
+    display: flex;
+}
+
+.products .box-container .box .content{
+    padding:1rem;
+    text-align: center;
+}
+
+.products .box-container .box .content h3{
+    font-size: 2rem;
+    color:#333;
+}
+
+.products .box-container .box .content .price{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.products .box-container .box .content .price span{
+    font-size: 1rem;
+    color:#999;
+    font-weight: lighter;
+    text-decoration: line-through;
+ 
+}
+.products .box-container .box .image .icons{
+    position: absolute;
+    bottom:-7rem; left:0; right:0;
+    display: flex;
+}
+
+.products .box-container .box:hover .image .icons{
+    bottom:0;
+}
+
+.products .box-container .box .image .icons a{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    width:50%;
+    background:var(--pink);
+    color:rgb(255, 16, 183);
+}
+
+.products .box-container .box .image .icons a:hover{
+    background-color:whitesmoke
+}
+
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.contact .row form{
+    flex:1 1 40rem;
+    padding:2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.contact .row .image{
+    flex:1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form .box{
+    padding:1rem;
+    font-size: 1rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin:.2rem 0;
+    width: 50%;
+}
+
+
+.contact .row form textarea{
+    height: 5rem;
+    resize: none;
+}
+
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    background-color:rgb(247, 40, 154);
+    
+   
+}
+
+.footer .box-container .box{
+    margin-left: 10%;
+    flex:1 1 10rem;
+    color: white;
+}
+
+.footer .box-container .box h3{
+    color:#333;
+    font-size: 2rem;
+    padding: 0.5em;
+}
+
+.footer .box-container .box a{
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    padding:0.5rem 0;
+}
+
+.footer .box-container .box  img{
+    margin-top: 1rem;
+}
+
+
